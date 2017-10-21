@@ -1,7 +1,7 @@
 FROM scratch
 
-COPY ./hello_world /
+COPY hello_go /
 
 EXPOSE 8080
 
-ENTRYPOINT [ "hello_world" ]
+ENTRYPOINT [ "hello_go" ]
