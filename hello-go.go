@@ -10,8 +10,6 @@ const (
 	port = ":8080"
 )
 
-var calls = 0
-
 func HelloWorld(w http.ResponseWriter, r *http.Request) {
 
 	name, err := os.Hostname()
