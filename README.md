@@ -19,3 +19,4 @@ To build this image use Golang-builder as follows:
         centurylink/golang-builder
     ```
     
+I adapated this code from [Go HTTP Hello World](https://github.com/geetarista/go-http-hello-world)
